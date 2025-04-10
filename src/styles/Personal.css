@@ -1,0 +1,60 @@
+.personal-section {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+}
+
+.personal-content {
+  max-width: 600px;
+}
+
+.personal-content h1 {
+  color: #1a1a1a;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.personal-content p {
+  color: #33333391;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.personal-button {
+  background-color: #0055aa;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.personal-button:hover {
+  background-color: #003f7d;
+}
+
+.social-icons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 2rem;
+}
+
+.social-icons a {
+  color: #1a1a1a;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #0055aa;
+}

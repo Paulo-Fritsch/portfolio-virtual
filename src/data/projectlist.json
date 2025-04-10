@@ -1,0 +1,43 @@
+[
+    {
+        "title": "F1 Connect (API pública)",
+        "description": "Uma plataforma que disponibiliza as pontuações, pilotos e corridas da Formula 1.",
+        "images": [
+          "src/assets/f1connect2.webp",
+          "src/assets/f1connect.webp",
+          "src/assets/f1connect_1.webp",
+          "src/assets/f1connect_2.webp",
+          "src/assets/f1connect_3.webp",
+          "src/assets/f1connect_4.webp"
+        ],
+        "techs": ["React", "Vite", "GIT", "API Pública", "React.MUI"],
+        "codeLink": "https://github.com/Paulo-Fritsch/F1-Connect",
+        "demoLink": "https://f1connect.vercel.app/",
+        "modaldescription": "O F1 Connect é um site feito para quem ama Fórmula 1 e quer acompanhar os dados das corridas de forma rápida, simples e sem distrações. Ideal para consultas no dia a dia e até durante chamadas com os amigos, o site apresenta informações atualizadas como classificações, tempos e pontuações de forma organizada e responsiva.\n\nDesenvolvido com o foco na experiência do usuário, o F1 Connect surgiu de uma necessidade real minha e do meu grupo de amigos: acompanhar os dados das corridas sem depender de sites pesados, confusos ou cheios de propaganda.\n\n📌 O que você encontra no F1 Connect:\n🏁 Resultados completos de cada GP (posições, tempos, pontos)\n📊 Dados sempre atualizados via API pública\n🤝 Perfeito para acompanhar em grupo (ex: chamadas no Discord)\n\n🧰 Tecnologias utilizadas:\n- ReactJS + Vite – Para uma experiência rápida e fluida no frontend\n- Material UI – Para componentes visuais bonitos e responsivos\n- Git – Para controle de versão\n- Vercel – Hospedagem gratuita, com build e deploy automático\n- F1API.dev – Fonte de dados gratuita e sem necessidade de autenticação"
+      },
+    {
+      "title": "Gestão de Pacientes (Cliente Particular)",
+      "description": "Um sistema C.R.U.D que armazena dados de pacientes e suas consultas. (Cliente Particular)",
+      "images": [
+        "src/assets/prontuarios.webp", 
+        "src/assets/prontuarios_1.webp", 
+        "src/assets/prontuarios_2.webp",
+        "src/assets/prontuarios_3.webp",
+        "src/assets/prontuarios_4.webp",
+        "src/assets/prontuarios_5.webp"
+    ],
+      "techs": ["React", "SQLite", "C# .NET", "Electron", "Git", "Documentação"],
+      "modaldescription": "🩺 Sistema de Gestão de Pacientes – Solução Personalizada\n\nProjeto desenvolvido em parceria com um doutor da minha cidade para resolver um problema real de gestão de pacientes em sua clínica. O principal objetivo era armazenar de forma simples, confiável e rápida os dados dos pacientes que passam por consultas.\n\n📋 O cenário inicial envolvia fichas em papel, o que dificultava a organização e o acesso rápido às informações. A partir disso, propus uma solução digital de baixo custo, mas com foco em eficiência e segurança, totalmente adaptada à rotina da clínica.\n\n⚙️ O sistema conta com um backend sólido, desenvolvido com boas práticas em C# .NET, utilizando SQLite como banco de dados local — ideal para o tipo de dado e volume da aplicação. Também foi implementado um sistema de backup automático, que gera arquivos compactados com senha no Google Drive, garantindo segurança mesmo em casos de perda de dados.\n\n🖥️ Já no frontend, a proposta foi manter uma interface objetiva e de fácil uso no dia a dia da clínica, com foco na praticidade.\n\n🧰 Tecnologias utilizadas:\n• C# .NET – Backend estruturado e seguro\n• SQLite – Banco de dados leve e local\n• ReactJS – Frontend ágil e responsivo\n• Material UI – Componentes modernos e fáceis de usar\n• Electron – Para transformar a solução em um aplicativo desktop"
+    },
+    {
+      "title": "Sistema Gerador de PDF'S (Cliente Particular)",
+      "description": "Um sistema que recebe dados dos pacientes e gera um PDF padronizado com imagens. (Cliente Particular)",
+      "images": [
+        "src/assets/evidencevet.webp", 
+        "src/assets/evidencevet_1.webp", 
+        "src/assets/evidencevet_2.webp"],
+      "techs": ["React", "Vite", "Tauri"],
+      "modaldescription": "🐾 PDF Generator – Clínica Evidence Vet\n\nEste projeto foi desenvolvido em parceria com a clínica veterinária Evidence Vet, que atende pacientes (animais) em toda a região. A demanda surgiu a partir da necessidade de agilizar a geração de laudos contendo os dados do paciente e imagens de raio-x, algo que antes era feito de forma manual e demorada.\n\nA clínica precisava de uma ferramenta que permitisse preencher rapidamente os dados da consulta por meio de formularios intuitivos, além de garantir que todas as imagens dos exames fossem padronizadas em tamanho e posicionamento no PDF final. A solução foi um software leve e prático, que elimina o trabalho manual e garante consistência visual e agilidade no dia a dia do atendimento.\n\nO sistema permite gerar arquivos PDF com poucos cliques, mantendo o padrão exigido pela clínica, e pode ser executado localmente como um aplicativo desktop, sem depender de internet ou serviços externos.\n\n🧰 Tecnologias utilizadas:\nReactJS + Vite – Para um frontend rápido e moderno\nMaterial UI – Componentes visuais responsivos e padronizados\nTauri – Empacotamento em aplicativo desktop leve e seguro"
+    }
+  ]
+  
