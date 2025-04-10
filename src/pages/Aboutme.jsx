@@ -1,12 +1,11 @@
 import '../styles/Aboutme.css';
-import PixelArt from '../assets/pixelart.webp'
 
 function AboutMe() {
   return (
     <section data-aos="fade-up" className="aboutme-section" id="sobre">
       <div className="aboutme-container">
         <div className="aboutme-image">
-          <img src= {PixelArt} alt="Pixel art representado Paulo Fritsch" />
+          <img src= "assets/pixelart.webp" alt="Pixel art representado Paulo Fritsch" />
         </div>
         <div className="aboutme-content">
           <h2>Sobre Mim</h2>
