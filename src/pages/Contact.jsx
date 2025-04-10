@@ -11,7 +11,7 @@ const Contact = () => {
         <div className="contact-form-card" data-aos="fade-right">
           <h3>Envie uma mensagem</h3>
           <p>Preencha o formulário abaixo e entrarei em contato o mais breve possível.</p>
-          <form action="https://formsubmit.co/paulo.fritsch2001@gmail.com" method="POST" class="contact-form">
+          <form action="https://formsubmit.co/paulofritsch.contato@gmail.com" method="POST" class="contact-form">
             <div class="input-group">
               <label for="name">Name</label>
               <input type="text" name="name" id="name" required />
@@ -42,7 +42,7 @@ const Contact = () => {
           </div>
           <div className="info-item">
             <FaPhoneAlt className="icon" />
-            <span>(55) 98427-5785</span>
+            <span>(55) 55 98427-5785</span>
           </div>
           <div className="info-item">
             <FaMapMarkerAlt className="icon" />
