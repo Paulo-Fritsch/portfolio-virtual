@@ -1,13 +1,36 @@
-# React + Vite
+# 💼 Portfólio Pessoal - Paulo Fritsch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é meu portfólio pessoal desenvolvido com **React + Vite**, onde apresento alguns dos meus projetos mais relevantes como desenvolvedor full stack. O site está hospedado gratuitamente no Vercel.
 
-Currently, two official plugins are available:
+🔗 Acesse em: [paulofritsch-portfolio.vercel.app/](paulofritsch-portfolio.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# portfolio-virtual
+- React
+- Vite
+- CSS puro
+- React Icons
+- AOS (Animate On Scroll)
+- Vercel (deploy)
+
+---
+
+## 🧠 Funcionalidades
+
+- Exibição de projetos com preview de imagens
+- Modal com detalhes expandidos
+- Responsividade total (desktop e mobile)
+- Animações suaves via scroll
+- Imagens otimizadas (WebP)
+
+---
+
+## 🧪 Como rodar localmente
+
+```bash
+git clone https://github.com/paulo-fritsch/portfolio.git
+cd portfolio
+npm install
+npm run dev
